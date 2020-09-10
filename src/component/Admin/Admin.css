@@ -1,0 +1,42 @@
+.adminTable{
+ width: 500px;
+ margin-left: 600px;
+
+}
+
+.adminBtn{
+ margin-left: 125px;
+}
+
+/*nave bar css*/
+
+.sidenav {
+ width: 300px;
+ position: absolute;
+ margin-top: 15px;
+ margin-left: 200px;
+ background: rgba(238, 238, 238, 0.418);
+outline-style: auto;
+}
+
+.sidenav a {
+ padding:  9px 15px 20px;
+ text-decoration: none;
+ font-size: 25px;
+ color: #9e049e;
+ display: block;
+}
+
+.sidenav a:hover {
+ color: #c564ce;
+}
+
+.dashHeader{
+ color: rgb(182, 178, 178);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ padding-top: 10px;
+}
+
+.checkbox1{
+ margin-left: 90px;
+}

@@ -1,0 +1,34 @@
+.header2 {
+  text-align: center;
+  text-underline-position: inherit;
+  color: rgb(191, 78, 219);
+  font-style: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.table{
+  width: 600px;
+  height: 350px;
+  margin-right: 100px;
+}
+
+.btn3 {
+  width: 150px;
+  height: 50px;
+  background-color: #9f49a4;
+  border-color: #f873ff;
+  color: white;
+  margin-right: 850px;
+  margin-top: 350px;
+}
+
+.btn3:hover {
+  background-color: #E49FDC !important;
+  color: black;
+}
+
+.medicine{
+  position: absolute;
+  left: 765px;
+  margin-top: 25px;
+}

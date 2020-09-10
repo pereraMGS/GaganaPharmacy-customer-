@@ -1,0 +1,41 @@
+.btn1 {
+  margin-top: 1rem;
+  border-radius: 3px;
+  background-color: #9ba19c;
+  border-width: 3px;
+  border-color: #000000;
+  color: rgb(255, 254, 254);
+  height: 50px;
+}
+
+.btn1:hover {
+  background-color: #a0a3a1a6;
+  color: black;
+}
+
+.table {
+  color: black;
+  background-color: #bfdcae;
+  width: 1250px;
+  position: absolute;
+  left: 60px;
+}
+
+.btn2 {
+  width: 150px;
+  height: 50px;
+  background-color: #9f49a4;
+  border-color: #f873ff;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.btn2:hover {
+  background-color: #f873ff;
+  color: black;
+}
+
+.delUp{
+  margin-left: 180px;
+  margin-bottom: 5px;
+}
