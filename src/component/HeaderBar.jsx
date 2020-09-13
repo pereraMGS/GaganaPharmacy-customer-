@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import "./HeaderBar.css";
+/*import { Link } from "react-router-dom";*/
 
 function HeaderBar() {
   return (
@@ -31,11 +32,13 @@ function HeaderBar() {
 
         <div className="col-sm mt-4" align="right">
           <a href="#">
-            <FontAwesomeIcon icon={faUser} size="2x" className="mr-5" color="black"/>
+            <FontAwesomeIcon icon={faUser} size="2x" className="mr-5" color="black" />
           </a>
-          <a href="#">
-            <FontAwesomeIcon icon={faCartPlus} size="2x" className="mr-4" color="black"/>
-          </a>
+          {/*<Link to="OrderDetails">*/}
+            <FontAwesomeIcon icon={faCartPlus} size="2x" className="mr-4" color="black" />
+          {/*</Link>*/}
+
+
         </div>
       </div>
 
@@ -67,7 +70,7 @@ function HeaderBar() {
                 <span className="navbar-brand">About</span>
               </a>
             </li>
-           
+
           </ul>
         </nav>
       </div>

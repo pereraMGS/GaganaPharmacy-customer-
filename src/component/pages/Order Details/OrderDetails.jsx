@@ -5,20 +5,21 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { faEdit } from "@fortawesome/free-solid-svg-icons";
 import ImageSlider1 from 'C:/Users/gimha/ITPproject/interfce/src/component/ImageSlider1.jsx';
 import Footer from "C:/Users/gimha/ITPproject/interfce/src/component/Footer.jsx"
+import { Link } from "react-router-dom";
 
 function OrderDetails(params) {
 
   return (
     <div>
       <div align="center">
-        
+
         <button className="btn1">Current Order</button>
         <button className="btn1">Previos Order</button>
       </div>
 
       <br></br>
       <div className="row">
-        
+
 
         <div className="col-sm">
           <table class="table">
@@ -58,10 +59,12 @@ function OrderDetails(params) {
       </div>
 
       <div className="delUp">
-        <button type="button" class="btn2"> Update <FontAwesomeIcon icon={faEdit} /></button>
+        <Link to="/UpdateDetails">
+          <button type="button" class="btn2"> Update <FontAwesomeIcon icon={faEdit} /></button></Link>
+
         <button type="button" class="btn2"> Delete <FontAwesomeIcon icon={faTrash} /></button>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 

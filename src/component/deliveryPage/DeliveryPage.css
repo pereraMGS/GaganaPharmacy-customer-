@@ -1,0 +1,21 @@
+.header5{
+ margin-left: 70px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+ width: 100px;
+}
+
+.createViewBtn{
+ margin-left: 260px;
+}
+
+.vl {
+ border-left: 6px solid gray;
+ height: 500px;
+}
+
+.deliveryImg{
+ margin-left: 120px;
+}
