@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import "./HeaderBar.css";
-/*import { Link } from "react-router-dom";*/
+import { Link } from "react-router-dom";
 
 function HeaderBar() {
   return (
@@ -34,9 +34,9 @@ function HeaderBar() {
           <a href="#">
             <FontAwesomeIcon icon={faUser} size="2x" className="mr-5" color="black" />
           </a>
-          {/*<Link to="OrderDetails">*/}
+          <Link to="OrderDetails">
             <FontAwesomeIcon icon={faCartPlus} size="2x" className="mr-4" color="black" />
-          {/*</Link>*/}
+          </Link>
 
 
         </div>
@@ -47,7 +47,7 @@ function HeaderBar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link nav-bar-item" href="#">
-                <span className="navbar-brand">Home</span>
+                <Link to="/"><span className="navbar-brand">Home</span></Link>
               </a>
             </li>
             <li className="nav-item">

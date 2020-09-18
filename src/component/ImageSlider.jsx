@@ -26,7 +26,7 @@ function ImageSlider() {
      <img class="d-block w-100" src="./projectImages/ImageSlider/four.jpg" alt="fourth slide" />
     </div>
     <div class="carousel-item">
-     <img class="d-block w-100" src="./projectImages/ImageSlider/five.jpg" alt="fourth slide" />
+     <img class="d-block w-100" src="./projectImages/imageSlider/five.jpg" alt="fourth slide" />
     </div>
    </div>
    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

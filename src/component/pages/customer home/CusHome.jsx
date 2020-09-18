@@ -24,7 +24,7 @@ export class CusHome extends Component {
 
     return (
       <div>
-        <ImageSlider />
+        <ImageSlider/>
         <div className="container-fluid">
 
           <div className="homePage" align="center">
@@ -288,7 +288,6 @@ export class CusHome extends Component {
           <img src="projectImages/delivery2.jpg" alt="deliver" width="100%" height="400"></img>
         </div>
 
-        <Footer />
 
       </div>
 
