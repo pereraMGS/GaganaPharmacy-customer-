@@ -46,12 +46,12 @@ export class CusHome extends Component {
                 onChange={this.imageHandler}
 
               />
-              <div className="lable">
+               {/*<div className="lable">
                 <lable htmlFort="input" className="image-upload">
-                  <i className="material-icons">add_photo_alternate</i>
+                 <i className="material-icons">add_photo_alternate</i>
                   <h6>Choose your prescription</h6>
                 </lable>
-              </div>
+              </div>*/}
             </div>
           </div>
           <br></br><br></br>

@@ -29,9 +29,9 @@ img.holder{
  object-fit: cover;
 }
 
-#input[type="file"]{
+/*#input[type="file"]{
  display: none;
-}
+}*/
 
 .lable{
  width: 100%;
@@ -59,9 +59,5 @@ img.holder{
  color: white;
 }
 
-/*.deliverImg{
- width: 100%;
-
-}*/
 
 

@@ -4,7 +4,7 @@ import Footer from "C:/Users/gimha/ITPproject/interfce/src/component/Footer.jsx"
 
 function UpdateDetails(params) {
 
- return(
+ return( 
 
   <div>
    <br></br>
@@ -62,5 +62,7 @@ function UpdateDetails(params) {
 
  );
 }
+
+
 
 export default UpdateDetails;

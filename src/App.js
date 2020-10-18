@@ -7,6 +7,8 @@ import UpdateDetails from "./component/pages/updateDetails/UpdateDetails";
 import CusHome from "./component/pages/customer home/CusHome";
 import Login from "./component/Admin/Login"
 import Footer from "./component/Footer.jsx";
+import {Provider} from "react-redux"
+import {store} from "./component/pages/action/store"
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <HeaderBar />
         <Switch>
           <Route path="/OrderDetails">
+          <Provider store={store}></Provider>
             <OrderDetails />
           </Route>
 
